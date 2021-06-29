@@ -1,8 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
     width: 80%;
     text-align: center;
-    margin-top:5%; 
+    background-attachment: 0.5;
+    background-color: rgb(148, 122, 122);
+    /* background-color: rgb(173, 133, 133); */
+
 }
+header{
+  position:sticky;
+  width: 100%;
+  top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+h1{
+  margin-left: 5%;
+  display: inline-block;
+  float: left;
+  font-size:xx-large;
+  padding-top: 20px;
+}
+header img{
+  /* margin-left: 25%; */
+  height: 80px;
+  display: inline-block;
+  float: left;
+}
+
+  #mid {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  margin-left: 10%;
+  }
+#left {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+#right {
+  /* padding: 20px; */
+  float: right;
+  width: 50%;
+}
+ #mid img{
+  float: left;
+   display: inline-block;
+   width: 200px;
+   height: 300px;
+   padding-left: 6px;
+ }
+ section h2{
+  text-align: left;
+  font-size: x-large;
+  padding-bottom: 20px;
+ }
+ #mid h2{
+  text-align: center;
+  margin-right: 130px;
+ }
+ footer{
+   clear: both;
+   width: 100%;
+    }
 table,td{
   text-align: center;
   border: 1px solid;
@@ -12,7 +77,8 @@ table,td{
   h2{
     text-align: center;
       margin-left:20%;
-      color: white;
+      font-size: large;
+      color: maroon;
     }
 
   th{
@@ -26,10 +92,16 @@ table,td{
   tr{
       height: 50px;
   }
-  
-body {
-     background-attachment: 0.5;
-  }
   td{
       background-color: rgba(255, 255, 255, 0.726);
   }
+  p,h5{
+    font-weight: bold;
+    font-size: large;  }
+
+    div,ul,li{
+      font-size: large;
+      /* list-style-type: square;    */
+      padding-left:0;  
+      margin-left: 0;
+    }

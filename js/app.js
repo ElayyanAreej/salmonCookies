@@ -122,6 +122,7 @@ Paris.getAmountsOfCookies();
 let Lima= new ShopLocation('Lima',2,16,4.6);
 Lima.getAmountsOfCookies();
 
+
 ShopLocation.prototype.render= function(){
 
   let trEl = document.createElement('tr');
@@ -149,7 +150,6 @@ Dubai.render();
 Paris.render();
 Lima.render();
 
-
 let trElf = document.createElement('tr');
 tableEl.appendChild(trElf);
 let tdEl = document.createElement('td');
@@ -167,7 +167,6 @@ let tdE10 = document.createElement('td');
 tdE10.textContent = totalOfTotals;
 trElf.appendChild(tdE10);
 tableEl.appendChild(trElf);
-
 
 /*
 
