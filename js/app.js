@@ -4,6 +4,7 @@ let locations=[];
 let am=6;
 let pm=12;
 let totolHr=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+let totalOfTotals=0;
 console.log(totolHr);
 function ShopLocation(name,MinCust,MaxCust,AvgCookieSale){
   this.name=name;
@@ -159,10 +160,14 @@ for (let i = 0; i < totolHr.length; i++) {
   tdEl.textContent = totolHr[i];
   trElf.appendChild(tdEl);
 }
+for (let i=0;i<15;i++){
+  totalOfTotals+=totolHr[i];
+}
 let tdE10 = document.createElement('td');
-tdE10.textContent = '  ';
+tdE10.textContent = totalOfTotals;
 trElf.appendChild(tdE10);
 tableEl.appendChild(trElf);
+
 
 /*
 
