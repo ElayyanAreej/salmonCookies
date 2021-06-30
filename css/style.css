@@ -1,14 +1,11 @@
 *{
   box-sizing: border-box;
+  text-align: justify;
 }
 
 body{
-    width: 80%;
-    text-align: center;
     background-attachment: 0.5;
-    background-color: rgb(148, 122, 122);
-    /* background-color: rgb(173, 133, 133); */
-
+    background-color:  rgb(218, 218, 167);
 }
 header{
   position:sticky;
@@ -16,6 +13,8 @@ header{
   top: 0;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  /* background-color:  rgb(218, 218, 167); */
+  height: 100px;
 }
 h1{
   margin-left: 5%;
@@ -31,54 +30,65 @@ header img{
   float: left;
 }
 
-  #mid {
-  float: left;
-  width: 100%;
+main{
+  clear: both;
+  width: 80%;
+  text-align:center;
+  /* background-color: lime; */
   padding: 20px;
   margin-left: 10%;
-  }
-#left {
-  float: left;
-  width: 50%;
-  padding: 20px;
+}
+section{
+  display: block;
+  clear: both;
+  margin-bottom: 5%;
 }
 
-#right {
-  /* padding: 20px; */
-  float: right;
-  width: 50%;
-}
+  
  #mid img{
   float: left;
    display: inline-block;
-   width: 200px;
-   height: 300px;
-   padding-left: 6px;
+   width: 150px;
+   height: 250px;
+   padding-left: 10px;
+ }
+ #mid div{
+   margin-left: 5%;
+   margin-bottom: 2%;
+ }
+
+ #left,#right{
+   /* background-color: magenta; */
+   padding-top: 5%;
+ }
+
+ #left{
+   display: block;
  }
  section h2{
-  text-align: left;
   font-size: x-large;
-  padding-bottom: 20px;
+  
  }
- #mid h2{
-  text-align: center;
-  margin-right: 130px;
- }
+
  footer{
    clear: both;
    width: 100%;
+   height: 100px;
+   color:rgb(218, 218, 167);
+   background-color: rgb(71, 40, 5);
+   padding: 20px;
     }
 table,td{
+
   text-align: center;
   border: 1px solid;
     border-collapse: collapse;
     margin-left:20%;
   }
   h2{
-    text-align: center;
-      margin-left:20%;
+    margin-bottom: 2%;
       font-size: large;
-      color: maroon;
+      color: rgb(71, 40, 5);
     }
 
   th{
