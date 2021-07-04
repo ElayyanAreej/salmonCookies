@@ -22,6 +22,8 @@ h1{
   float: left;
   font-size:xx-large;
   padding-top: 20px;
+  font-family: 'Tourney', cursive;
+  color: rgb(110, 63, 0);
 }
 header img{
   /* margin-left: 25%; */
@@ -89,6 +91,7 @@ table,td{
     margin-bottom: 2%;
       font-size: large;
       color: rgb(71, 40, 5);
+      font-family: 'Special Elite', cursive;
     }
 
   th{
@@ -107,7 +110,9 @@ table,td{
   }
   p,h5{
     font-weight: bold;
-    font-size: large;  }
+    font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+color: maroon;  }
 
     div,ul,li{
       font-size: large;
